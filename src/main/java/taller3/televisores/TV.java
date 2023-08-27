@@ -74,10 +74,13 @@ public class TV {
 		if(estado=true & volumen>0) {
 		volumen--;}
 	}
-	public Object getTV() {
+	public Object getTv() {
 		return tv;
 	}
 	public static int getNumTV() {
 		return numTV;
+	}
+	public static int setNumTV(int numtv) {
+		return numTV=numtv;
 	}
 }

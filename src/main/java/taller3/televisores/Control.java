@@ -7,7 +7,7 @@ public class Control {
 		this.tv=tv;
 		tv.setControl(this);
 	}
-	public void setTV(TV tv) {
+	public void setTv(TV tv) {
 		this.tv=tv;
 	}
 	public boolean turnOn() {
@@ -16,7 +16,7 @@ public class Control {
 	public boolean turnOff() {
 		return tv.estado=false;
 	}
-	public Object getTV() {
+	public Object getTv() {
 		return tv;
 	}
 	public void canalUp() {
