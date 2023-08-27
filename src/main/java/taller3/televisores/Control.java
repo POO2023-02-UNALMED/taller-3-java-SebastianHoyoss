@@ -29,11 +29,11 @@ public class Control {
 		tv.canal--;}
 	}
 	public void volumenUp() {
-		if(tv.estado=true & tv.volumen<7){
+		if(tv.estado==true & tv.volumen<7){
 		tv.volumen++;}
 	}
 	public void volumenDown() {
-		if(tv.estado=true & tv.volumen>0) {
+		if(tv.estado==true & tv.volumen>0) {
 		tv.volumen--;}
 	}
 	public void setVolumen(int volumen) {
