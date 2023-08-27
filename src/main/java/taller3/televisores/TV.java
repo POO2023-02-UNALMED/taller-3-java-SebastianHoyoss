@@ -67,11 +67,11 @@ public class TV {
 		canal--;}
 	}
 	public void volumenUp() {
-		if(estado=true & volumen<7){
+		if(estado==true & volumen<7){
 		volumen++;}
 	}
 	public void volumenDown() {
-		if(estado=true & volumen>0) {
+		if(estado==true & volumen>0) {
 		volumen--;}
 	}
 	public Object getTv() {
